@@ -301,10 +301,10 @@ void getDateTime()
 
 ## Pictures
 
-![Picture 1](https://github.com/circuito-suman/Esp8266NTPClock/pages/assets/2.jpg?raw=true)
-![Picture 2](https://github.com/circuito-suman/Esp8266NTPClock/pages/assets/3.jpg?raw=true)
-![Picture 3](https://github.com/circuito-suman/Esp8266NTPClock/pages/assets/4.jpg?raw=true)
-![Picture 4](https://github.com/circuito-suman/Esp8266NTPClock/pages/assets/1.jpg?raw=true)
+![Picture 1](assets/2.jpg?raw=true)
+![Picture 2](assets/3.jpg?raw=true)
+![Picture 3](assets/4.jpg?raw=true)
+![Picture 4](assets/1.jpg?raw=true)
 
 ## Working Video
 
