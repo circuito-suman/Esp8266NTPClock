@@ -1,0 +1,148 @@
+/* styles.css */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  color: #0c6f39;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background: #400999;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.content h2 {
+  color: #09961e;
+  font-size: 2rem;
+  text-align: justify;
+  border-bottom: 2px solid #343a40;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.components-used,
+.section,
+.code,
+.picture,
+.videosection {
+  margin-bottom: 2rem;
+}
+
+.components-used ul,
+.section ul,
+.code ul {
+  list-style: square;
+  padding: 0;
+}
+
+.components-used li,
+.section li,
+.code li {
+  background: #f8f9fa;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+  box-shadow: 0 2px 4px rgb(11, 105, 183);
+}
+
+.components-used li:hover,
+.section li:hover,
+.code li:hover {
+  background: #e9ecef;
+}
+
+.picture img,
+.schematic img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.picture-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.picture-container {
+  flex: 1;
+  min-width: 200px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  border-radius: 8px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background: #343a40;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.code pre {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.code code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+  color: #343a40;
+}
+
+.conclusion p {
+  font-size: 1.1rem;
+}
+
+.conclusion li {
+  margin-top: 0.5rem;
+}
