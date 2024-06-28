@@ -1,5 +1,5 @@
 # ESP8266 WiFi NTP Clock
-in [View HTML Version](https://circuito-suman.github.io/Esp8266NTPClock/)
+ [View HTML Version](https://circuito-suman.github.io/Esp8266NTPClock/)
 
 <p align="center">
   <img src="https://img.shields.io/github/issues/circuito-suman/Esp8266NTPClock">
